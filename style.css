@@ -6,6 +6,10 @@
   scroll-behavior: smooth;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
     url("img/jakubstyluje.jpg");
@@ -226,16 +230,24 @@ header.sticky {
   font-weight: 400;
 }
 
+.menu ul:hover .more {
+  color: #333129;
+  background-color: #f9f9f9;
+  font-weight: 400;
+}
+
+.morediv {
+  margin-top: 5%;
+}
+
 .more {
+  color: #f9f9f9;
   font-family: "Open Sans", comic-sans;
   font-size: 17;
   letter-spacing: 1.5;
-  margin-top: 5%;
   vertical-align: middle;
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
-  bottom: 17px;
   font-weight: 300;
 }
 
@@ -419,6 +431,34 @@ header.sticky {
 #popisek_6 {
   background: url("img/strojek.png");
   background-size: 70% auto;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+#popisek_7 {
+  background: url("img/hottowel.png");
+  background-size: 80% auto;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+#popisek_8 {
+  background: url("img/after.png");
+  background-size: 60% auto;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+#popisek_9 {
+  background: url("img/dlouhyvlasy.png");
+  background-size: 70% auto;
+  background-repeat: no-repeat;
+  background-position: -100px top;
+}
+
+#popisek_10 {
+  background: url("img/holeni.png");
+  background-size: 80% auto;
   background-repeat: no-repeat;
   background-position: top right;
 }

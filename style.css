@@ -544,7 +544,7 @@ header.sticky {
 }
 
 .contact {
-  padding-top: 200px;
+  background-color: #080808;
 }
 
 .heading {
@@ -627,4 +627,9 @@ header.sticky {
 #fblink {
   text-decoration: underline;
   text-underline-offset: 7px;
+}
+
+.gradientlol {
+  height: 300px;
+  background: linear-gradient(#111111, #080808);
 }

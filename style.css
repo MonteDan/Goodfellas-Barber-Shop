@@ -10,12 +10,14 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+#home {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1)),
     url("img/jakubstyluje.jpg");
   background-size: 100%;
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-attachment: fixed;
+  padding-bottom: 50px;
 }
 
 header {
@@ -98,7 +100,6 @@ header.sticky {
   display: flex;
   color: white;
   margin-top: 80px;
-  margin-bottom: 30px;
   height: 65px;
   justify-content: center;
   margin-left: auto;
@@ -159,6 +160,7 @@ header.sticky {
 
 .content {
   background-color: #272727;
+  width: 100%;
 }
 .content_2 {
   background-color: black;
@@ -173,6 +175,7 @@ header.sticky {
   line-height: 2;
   font-size: 52;
   font-weight: 300;
+  margin-top: 0;
 }
 
 .menu {
@@ -492,7 +495,7 @@ header.sticky {
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 1090px) {
+@media (max-width: 50vh) {
   .flexbox {
     grid-template-columns: 1fr;
     grid-template-areas: none;
@@ -565,6 +568,13 @@ header.sticky {
 .grid i {
   color: white;
   font-size: 6.25vh;
+}
+
+@media (max-width: 56vh) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-areas: none;
+  }
 }
 
 .item {

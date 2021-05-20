@@ -13,7 +13,7 @@ html {
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
     url("img/jakubstyluje.jpg");
-  background-size: cover;
+  background-size: 100%;
   background-repeat: none;
   background-attachment: fixed;
 }
@@ -492,7 +492,7 @@ header.sticky {
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 600px) {
+@media (max-width: 1090px) {
   .flexbox {
     grid-template-columns: 1fr;
     grid-template-areas: none;
@@ -534,4 +534,78 @@ header.sticky {
   font-size: 20;
   font-family: "Open Sans";
   padding-bottom: 30px;
+}
+
+.contact {
+  padding-top: 200px;
+}
+
+.heading {
+  font-family: Oswald;
+  font-size: 72;
+  color: white;
+  font-weight: 900;
+  text-align: center;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 28vh 28vh;
+  grid-template-rows: 25vh 25vh;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". ."
+    ". .";
+  margin-top: 150px;
+}
+
+.grid i {
+  color: white;
+  font-size: 6.25vh;
+}
+
+.item {
+  padding-top: 5vh;
+  height: 25vh;
+  width: 28vh;
+  border: solid 1px #999999;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1;
+  line-height: 0.9;
+}
+
+.name {
+  font-family: Oswald;
+  color: #c0c0c0;
+  font-weight: 500;
+  font-size: 1.7vh;
+  padding-top: 1vh;
+}
+
+.desc {
+  padding-top: 5.5vh;
+  padding-bottom: 5.5vh;
+  vertical-align: middle;
+  font-family: "Open Sans";
+  font-size: 1.5vh;
+  color: white;
+}
+
+.fckin_email {
+  color: white;
+  margin-top: 5.575vh;
+  margin-bottom: 5.575vh;
+  vertical-align: middle;
+  font-family: "Open Sans";
+  font-size: 1.35vh;
+}
+
+#fblink {
+  text-decoration: underline;
+  text-underline-offset: 7px;
 }

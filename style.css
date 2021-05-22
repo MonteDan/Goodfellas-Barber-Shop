@@ -138,18 +138,7 @@ header.sticky {
   padding-top: 100px;
   filter: drop-shadow(0px 0px 20px#151515);
 }
-.arrow {
-  vertical-align: middle;
-  animation: thing 2s infinite;
-  display: flex;
-  color: white;
-  margin-top: 80px;
-  height: 65px;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  filter: drop-shadow(0px 0px 20px#202020);
-  transform: rotate(180deg);
+
 }
 .fixed {
   display: flex;
@@ -333,9 +322,6 @@ header.sticky {
   .karta {
     width: 100vw;
     height: auto;
-  }
-  #arrow {
-    display: none;
   }
   .container h1 {
     text-align: center;

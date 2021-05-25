@@ -93,7 +93,7 @@ header.sticky {
   padding-right: 0;
 }
 
-@media (max-width: 1081px) {
+@media (max-width: 1200px) {
   header {
     height: 10vw;
     padding-top: 100px;
@@ -249,13 +249,24 @@ header.sticky {
   margin-bottom: 7px;
   border: 1px solid #606060;
   height: 13.5em;
-  position: relative;
   justify-content: center;
+  text-align: center;
 }
 
 .karta_nadpis {
   padding-left: 30px;
   padding-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 14px;
+  font-family: "Roboto", comic-sans;
+  font-size: 18;
+  font-weight: 300;
+  letter-spacing: 4;
+  line-height: 1.2;
+}
+.karta_nadpis2 {
+  padding-left: 5px;
+  padding-right: 5px;
   margin-top: 30px;
   margin-bottom: 14px;
   font-family: "Roboto", comic-sans;
@@ -304,7 +315,7 @@ header.sticky {
 }
 
 .morediv {
-  margin-top: 5%;
+  padding-top: 3vh;
 }
 
 .more {
@@ -318,11 +329,13 @@ header.sticky {
   font-weight: 300;
 }
 
-@media (max-width: 1081px) {
+@media (max-width: 1200px) {
   .karta {
     width: 100vw;
     height: auto;
     z-index: 19;
+    margin-bottom: 0px;
+    padding-top: 50px;
   }
   .container h1 {
     text-align: center;
@@ -333,23 +346,27 @@ header.sticky {
     columns: 100vw 1;
     column-width: 100vw;
     column-gap: 0px;
+    border: none;
+    border-bottom: #606060 1px solid;
   }
   .container {
     margin: 0 !important;
   }
   .karta_nadpis {
-    font-size: 8vw;
-    padding-bottom: 50px;
+    font-size: 5vw;
+    padding-bottom: 20px;
   }
   .karta i {
-    font-size: 4vw;
+    font-size: 3.5vw;
   }
   .karta_cas {
-    font-size: 5vw;
+    font-size: 3vw;
+  }
+  .morediv {
   }
 
   .more {
-    font-size: 7vw;
+    font-size: 5vw;
   }
 }
 
@@ -637,10 +654,10 @@ header.sticky {
 }
 
 #jakub {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
-@media (max-width: 1081px) {
+@media (max-width: 1200px) {
   .barber {
     margin-top: 15vw;
     padding-left: 20vw;
@@ -767,7 +784,7 @@ header.sticky {
   background: linear-gradient(#111111, #080808);
 }
 
-@media (max-width: 1081px) {
+@media (max-width: 1200px) {
   .item {
     display: block;
     width: 100vw;

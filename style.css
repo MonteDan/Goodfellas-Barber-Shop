@@ -194,28 +194,6 @@ header.sticky {
   line-height: 1.2;
 }
 
-@media (max-width: 1081px) {
-  .large_logo {
-    padding-top: 150px;
-  }
-  .large_logo img {
-    width: 80vw;
-  }
-  .large_lore {
-    font-size: 8vw;
-    width: 100vw;
-    padding-left: 4vw;
-    padding-right: 4vw;
-  }
-  .small_lore {
-    font-size: 3vw;
-    width: 100vw;
-    padding-top: 5vw;
-    padding-left: 10vw;
-    padding-right: 10vw;
-  }
-}
-
 .content {
   background-color: #272727;
   width: 100%;
@@ -248,7 +226,7 @@ header.sticky {
   margin-top: 0px;
   margin-bottom: 7px;
   border: 1px solid #606060;
-  height: 13.5em;
+  height: 16em;
   justify-content: center;
   text-align: center;
 }
@@ -327,43 +305,6 @@ header.sticky {
   margin-left: auto;
   margin-right: auto;
   font-weight: 300;
-}
-
-@media (max-width: 1200px) {
-  .karta {
-    width: 100vw;
-    height: auto;
-    z-index: 19;
-    margin-bottom: 0px;
-    padding-top: 50px;
-  }
-  .container h1 {
-    text-align: center;
-    margin: auto;
-    width: 100vw;
-  }
-  .menu {
-    display: block;
-    border: none;
-    border-bottom: #606060 1px solid;
-  }
-  .container {
-    margin: 0 !important;
-  }
-  .karta_nadpis {
-    font-size: 5vw;
-    padding-bottom: 20px;
-  }
-  .karta i {
-    font-size: 3.5vw;
-  }
-  .karta_cas {
-    font-size: 3vw;
-  }
-
-  .more {
-    font-size: 5vw;
-  }
 }
 
 #popisek_1 {

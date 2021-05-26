@@ -21,8 +21,7 @@ html {
   -o-background-size: cover;
   background-size: cover;
   padding-bottom: 50px;
-  min-height: 100%;
-  max-height: 100%;
+  height: 100%;
   background-position: center;
 }
 
@@ -599,29 +598,40 @@ header.sticky {
     margin-top: 15vw;
     padding-left: 20vw;
     padding-right: 20vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 
   .barber img {
     height: 35vw;
+    text-align: center;
   }
 
   .jmeno {
     padding-top: 30px;
     font-size: 4vw;
+    text-align: center;
   }
 
   .holic {
     font-size: 2.4vw;
+    text-align: center;
   }
 
   .profilovka_popis {
     padding-bottom: 55px;
     font-size: 3vw;
+    text-align: center;
+    width: 65vw;
+    margin: auto;
   }
 
   .flexbox {
     grid-template-columns: 1fr;
     grid-template-areas: none;
+    text-align: center;
   }
 }
 
@@ -668,6 +678,17 @@ header.sticky {
   letter-spacing: 1;
   line-height: 0.9;
 }
+.item2 {
+  padding-top: 5vh;
+  height: 450px;
+  width: 500px;
+  border: solid 1px #999999;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1;
+  line-height: 0.9;
+}
 
 .name {
   font-family: Oswald;
@@ -675,10 +696,10 @@ header.sticky {
   font-weight: 500;
   font-size: 30;
   padding-top: 20px;
+  padding-bottom: 100px;
 }
 
 .desc {
-  padding-top: 100px;
   padding-bottom: 100px;
   vertical-align: middle;
   font-family: "Open Sans";
@@ -695,11 +716,6 @@ header.sticky {
   text-underline-offset: 7px;
   font-size: 25;
   color: white;
-}
-
-.fucking_padding {
-  padding-top: 102px;
-  padding-bottom: 102px;
 }
 
 .fckin_email {
@@ -728,13 +744,22 @@ header.sticky {
     height: auto;
     border: none;
   }
+  .item2 {
+      display: block;
+      width: 100vw;
+      height: auto;
+      border: none;
+  }
   .grid i {
     font-size: 12vw;
   }
   .name {
     padding-top: 4vw;
     font-size: 3.5vw;
-    padding-bottom: 0px;
+    padding-bottom: 30px;
+  }
+  .maps {
+    padding-top: 0px;
   }
   .desc {
     padding: 0px;

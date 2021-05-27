@@ -21,7 +21,8 @@ html {
   -o-background-size: cover;
   background-size: cover;
   padding-bottom: 50px;
-  height: 100%;
+  height: auto;
+  min-height: 100vh;
   background-position: center;
 }
 
@@ -135,7 +136,7 @@ header.sticky {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 100px;
+  padding-top: 200px;
   filter: drop-shadow(0px 0px 20px#151515);
 }
 
@@ -304,6 +305,24 @@ header.sticky {
   margin-left: auto;
   margin-right: auto;
   font-weight: 300;
+}
+
+@media (max-width:1200px){
+  #home {
+    background: #090804;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .menu {
+    column-count: 1;
+  }
+  .karta_nadpis, .karta_nadpis2{
+    font-size: 22;
+    margin-bottom: 0px;
+  }
+  .more {
+    font-size: 22;
+  }
 }
 
 #popisek_1 {
@@ -637,6 +656,7 @@ header.sticky {
 
 .contact {
   background-color: #080808;
+  padding-top: 150px;
 }
 
 .heading {

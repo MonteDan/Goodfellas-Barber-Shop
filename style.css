@@ -21,6 +21,7 @@ html {
   -o-background-size: cover;
   background-size: cover;
   padding-bottom: 50px;
+  padding-top: 200px;
   height: auto;
   min-height: 100vh;
   background-position: center;
@@ -136,7 +137,6 @@ header.sticky {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 200px;
   filter: drop-shadow(0px 0px 20px#151515);
 }
 
@@ -307,7 +307,7 @@ header.sticky {
   font-weight: 300;
 }
 
-@media (max-width:1200px){
+@media (max-width: 1200px) {
   #home {
     background: #090804;
     padding-left: 5vw;
@@ -316,7 +316,8 @@ header.sticky {
   .menu {
     column-count: 1;
   }
-  .karta_nadpis, .karta_nadpis2{
+  .karta_nadpis,
+  .karta_nadpis2 {
     font-size: 22;
     margin-bottom: 0px;
   }
@@ -765,10 +766,10 @@ header.sticky {
     border: none;
   }
   .item2 {
-      display: block;
-      width: 100vw;
-      height: auto;
-      border: none;
+    display: block;
+    width: 100vw;
+    height: auto;
+    border: none;
   }
   .grid i {
     font-size: 12vw;

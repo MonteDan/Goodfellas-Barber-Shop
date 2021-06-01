@@ -1,80 +1,149 @@
 @font-face {
-    font-family: "Montserrat";
-    src: url("fonts/Montserrat/Montserrat-Regular.eot");
-    src: url("fonts/Montserrat/Montserrat-Regular.eot?#iefix") format('embedded-opentype'),
-         url("fonts/Montserrat/Montserrat-Regular.woff2") format('woff2'),
-         url("fonts/Montserrat/Montserrat-Regular.woff") format('woff'),
-         url("fonts/Montserrat/Montserrat-Regular.ttf") format('truetype');
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat/Montserrat-Regular.eot");
+  src: url("fonts/Montserrat/Montserrat-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/Montserrat/Montserrat-Regular.woff2") format("woff2"),
+    url("fonts/Montserrat/Montserrat-Regular.woff") format("woff"),
+    url("fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Open Sans";
-    src: url("fonts/Open_Sans/OpenSans-Regular.eot");
-    src: url("fonts/Open_Sans/OpenSans-Regular.eot?#iefix") format('embedded-opentype'),
-         url("fonts/Open_Sans/OpenSans-Regular.woff2") format('woff2'),
-         url("fonts/Open_Sans/OpenSans-Regular.woff") format('woff'),
-         url("fonts/Open_Sans/OpenSans-Regular.ttf") format('truetype');
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Open Sans";
+  src: url("fonts/Open_Sans/OpenSans-Regular.eot");
+  src: url("fonts/Open_Sans/OpenSans-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/Open_Sans/OpenSans-Regular.woff2") format("woff2"),
+    url("fonts/Open_Sans/OpenSans-Regular.woff") format("woff"),
+    url("fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Open Sans";
-    src: url("fonts/Open_Sans/OpenSans-Light.eot");
-    src: url("fonts/Open_Sans/OpenSans-Light.eot?#iefix") format('embedded-opentype'),
-         url("fonts/Open_Sans/OpenSans-Light.woff2") format('woff2'),
-         url("fonts/Open_Sans/OpenSans-Light.woff") format('woff'),
-         url("fonts/Open_Sans/OpenSans-Light.ttf") format('truetype');
-    font-weight: 300;
-    font-style: normal;
+  font-family: "Open Sans";
+  src: url("fonts/Open_Sans/OpenSans-Light.eot");
+  src: url("fonts/Open_Sans/OpenSans-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/Open_Sans/OpenSans-Light.woff2") format("woff2"),
+    url("fonts/Open_Sans/OpenSans-Light.woff") format("woff"),
+    url("fonts/Open_Sans/OpenSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Open Sans";
-    src: url("fonts/Open_Sans/OpenSans-SemiBold.eot");
-    src: url("fonts/Open_Sans/OpenSans-SemiBold.eot?#iefix") format('embedded-opentype'),
-         url("fonts/Open_Sans/OpenSans-SemiBold.woff2") format('woff2'),
-         url("fonts/Open_Sans/OpenSans-SemiBold.woff") format('woff'),
-         url("fonts/Open_Sans/OpenSans-SemiBold.ttf") format('truetype');
-    font-weight: 600;
-    font-style: normal;
+  font-family: "Open Sans";
+  src: url("fonts/Open_Sans/OpenSans-SemiBold.eot");
+  src: url("fonts/Open_Sans/OpenSans-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/Open_Sans/OpenSans-SemiBold.woff2") format("woff2"),
+    url("fonts/Open_Sans/OpenSans-SemiBold.woff") format("woff"),
+    url("fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Oswald";
-    src: url("fonts/Oswald/static/Oswald-Regular.eot");
-    src: url("fonts/Oswald/static/Oswald-Regular.eot?#iefix") format('embedded-opentype'),
-         url("fonts/Oswald/static/Oswald-Regular.woff2") format('woff2'),
-         url("fonts/Oswald/static/Oswald-Regular.woff") format('woff'),
-         url("fonts/Oswald/static/Oswald-Regular.ttf") format('truetype');
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Oswald";
+  src: url("fonts/Oswald/static/Oswald-Regular.eot");
+  src: url("fonts/Oswald/static/Oswald-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/Oswald/static/Oswald-Regular.woff2") format("woff2"),
+    url("fonts/Oswald/static/Oswald-Regular.woff") format("woff"),
+    url("fonts/Oswald/static/Oswald-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Oswald";
-    src: url("fonts/Oswald/static/Oswald-Medium.eot");
-    src: url("fonts/Oswald/static/Oswald-Medium.eot?#iefix") format('embedded-opentype'),
-         url("fonts/Oswald/static/Oswald-Medium.woff2") format('woff2'),
-         url("fonts/Oswald/static/Oswald-Medium.woff") format('woff'),
-         url("fonts/Oswald/static/Oswald-Medium.ttf") format('truetype');
-    font-weight: 500;
-    font-style: normal;
+  font-family: "Oswald";
+  src: url("fonts/Oswald/static/Oswald-Medium.eot");
+  src: url("fonts/Oswald/static/Oswald-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/Oswald/static/Oswald-Medium.woff2") format("woff2"),
+    url("fonts/Oswald/static/Oswald-Medium.woff") format("woff"),
+    url("fonts/Oswald/static/Oswald-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Oswald";
-    src: url("fonts/Oswald/static/Oswald-Bold.eot");
-    src: url("fonts/Oswald/static/Oswald-Bold.eot?#iefix") format('embedded-opentype'),
-         url("fonts/Oswald/static/Oswald-Bold.woff2") format('woff2'),
-         url("fonts/Oswald/static/Oswald-Bold.woff") format('woff'),
-         url("fonts/Oswald/static/Oswald-Bold.ttf") format('truetype');
-    font-weight: 700;
-    font-style: normal;
+  font-family: "Oswald";
+  src: url("fonts/Oswald/static/Oswald-Bold.eot");
+  src: url("fonts/Oswald/static/Oswald-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/Oswald/static/Oswald-Bold.woff2") format("woff2"),
+    url("fonts/Oswald/static/Oswald-Bold.woff") format("woff"),
+    url("fonts/Oswald/static/Oswald-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
 }
 
+@font-face {
+  font-family: "Playfair Display";
+  src: url("fonts/Playfair_Display/static/PlayfairDisplay-Regular.eot");
+  src: url("fonts/Playfair_Display/static/PlayfairDisplay-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/Playfair_Display/static/PlayfairDisplay-Regular.woff2")
+      format("woff2"),
+    url("fonts/Playfair_Display/static/PlayfairDisplay-Regular.woff")
+      format("woff"),
+    url("fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf")
+      format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("fonts/Playfair_Display/static/PlayfairDisplay-Bold.eot");
+  src: url("fonts/Playfair_Display/static/PlayfairDisplayBoldr.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/Playfair_Display/static/PlayfairDisplay-Bold.woff2")
+      format("woff2"),
+    url("fonts/Playfair_Display/static/PlayfairDisplay-Bold.woff")
+      format("woff"),
+    url("fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf")
+      format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto/Roboto-Regular.ttf");
+  src: url("fonts/Roboto/Roboto-Regular.ttf?#iefix") format("embedded-opentype"),
+    url("fonts/Roboto/Roboto-Regular.ttf.woff2") format("woff2"),
+    url("fonts/Roboto/Roboto-Regular.ttf.woff") format("woff"),
+    url("fonts/Roboto/Roboto-Regular.ttf.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf");
+  src: url("fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf?#iefix")
+      format("embedded-opentype"),
+    url("fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf.woff2") format("woff2"),
+    url("fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf.woff") format("woff"),
+    url("fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf.ttf")
+      format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto/Roboto-Light.eot");
+  src: url("fonts/Roboto/Roboto-Light.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Roboto/Roboto-Light.woff2") format("woff2"),
+    url("fonts/Roboto/Roboto-Light.woff") format("woff"),
+    url("fonts/Roboto/Roboto-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
 }
 
 * {
@@ -200,11 +269,11 @@ header.sticky {
     letter-spacing: 0;
   }
   .navigation a li {
-    padding-left: 1vw;
-    padding-right: 1vw;
+    padding-left: 0.8vw;
+    padding-right: 0.8vw;
     position: relative;
     height: 100%;
-    font-size: 3vw;
+    font-size: 3.5vw;
     letter-spacing: 0.5;
     font-weight: 500;
     color: #e0e0e0;
@@ -276,21 +345,30 @@ header.sticky {
 .content {
   background-color: #272727;
   width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .content_2 {
   background-color: black;
 }
 
-.container h1 {
+.h1cont {
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.h1cont h1 {
   padding: 30px;
   color: white;
   font-family: "Roboto", comic-sans;
   text-align: center;
   letter-spacing: 5;
   line-height: 2;
-  font-size: 52;
+  font-size: 65;
   font-weight: 300;
   margin-top: 0;
+  margin-bottom: 0px;
 }
 
 .menu {
@@ -367,7 +445,7 @@ header.sticky {
   text-decoration-thickness: 2px;
   text-underline-offset: 3px;
   text-underline-offset: 3px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 1;
 }
 
@@ -392,16 +470,47 @@ header.sticky {
     padding-left: 5vw;
     padding-right: 5vw;
   }
+  .h1cont h1 {
+    font-size: 7vw;
+  }
+  .large_lore {
+    font-size: 10vw;
+  }
+
+  .small_lore {
+    padding-top: 8vw;
+    font-size: 5vw;
+  }
+  .container {
+    margin-left: 0px !important;
+  }
   .menu {
     column-count: 1;
   }
-  .karta_nadpis,
-  .karta_nadpis2 {
-    font-size: 22;
+  .karta {
+    width: 100vw;
+    height: 23rem;
     margin-bottom: 0px;
   }
+
+  .karta i {
+    font-size: 1.85vw;
+  }
+  .karta_cas {
+    font-size: 3vw;
+  }
+  .karta_nadpis,
+  .karta_nadpis2 {
+    font-size: 4vw;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+  }
   .more {
-    font-size: 22;
+    font-size: 3vw;
+    font-weight: 400;
+  }
+  .morediv {
+    padding-top: 1.7vh;
   }
 }
 

@@ -156,6 +156,7 @@
 
 html {
   scroll-behavior: smooth;
+  width: 100vw;
 }
 
 #home {
@@ -243,9 +244,14 @@ header.sticky {
 }
 
 @media (max-width: 1200px) {
+  html {
+    width: 100vw;
+  }
   header {
     height: 10vw;
     padding-top: 100px;
+    width: 100vw;
+    margin-left: 0;
   }
   .inner_header {
     height: 100%;
@@ -255,6 +261,7 @@ header.sticky {
     display: none;
   }
   .navigation {
+    margin-left: 0px;
     display: flex;
     width: 100vw;
     height: 100%;
@@ -267,6 +274,7 @@ header.sticky {
     position: relative;
     height: 100%;
     letter-spacing: 0;
+    padding: 0vw 1vw;
   }
   .navigation a li {
     padding-left: 0.7vw;
@@ -274,7 +282,7 @@ header.sticky {
     position: relative;
     height: 100%;
     font-size: 3.5vw;
-    letter-spacing: 0.5;
+    letter-spacing: 0.1vw;
     font-weight: 500;
     color: #e0e0e0;
     font-family: "Open Sans";
@@ -566,6 +574,7 @@ header.sticky {
 }
 
 .popisek_nazev {
+  width: 50vw;
   display: block;
   font-family: "Playfair Display", comic-sans;
   font-size: 72;
@@ -629,6 +638,7 @@ header.sticky {
   background-repeat: no-repeat;
 }
 .popisek_nazev2 {
+  width: 50vw;
   display: block;
   font-family: "Playfair Display", comic-sans;
   font-size: 72;
@@ -665,6 +675,7 @@ header.sticky {
 }
 
 .popisek_nazev3 {
+  width: 50vw;
   display: block;
   font-family: "Playfair Display", comic-sans;
   font-size: 72;
@@ -681,6 +692,7 @@ header.sticky {
 }
 
 .popisek_nazev4 {
+  width: 50vw;
   display: block;
   font-family: "Playfair Display", comic-sans;
   font-size: 62;
@@ -736,6 +748,18 @@ header.sticky {
     margin-left: 0px;
     margin-right: 0px;
     font-size: 2.5vw;
+  }
+  .popisek_nazev {
+    font-size: 7vw;
+  }
+  .popisek_nazev2 {
+    font-size: 7vw;
+  }
+  .popisek_nazev3 {
+    font-size: 7vw;
+  }
+  .popisek_nazev4 {
+    font-size: 7vw;
   }
   .popisek_cena,
   .popisek_cena2 {
@@ -845,6 +869,10 @@ header.sticky {
     grid-template-columns: 1fr;
     grid-template-areas: none;
     text-align: center;
+  }
+  .big_logo img {
+    width: 100vw;
+    height: auto;
   }
 }
 

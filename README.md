@@ -5,3 +5,5 @@ Vývoj webu řídí majitel Barbershopu. Web vytvářím sám
 
 https://barbershoplouny.cz/
 
+
+Web dostává celkem často aktualizace

@@ -122,6 +122,16 @@
   font-weight: 400;
   font-style: normal;
 }
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto/Roboto-Medium.ttf");
+  src: url("fonts/Roboto/Roboto-Medium.ttf?#iefix") format("embedded-opentype"),
+    url("fonts/Roboto/Roboto-Medium.ttf.woff2") format("woff2"),
+    url("fonts/Roboto/Roboto-Medium.ttf.woff") format("woff"),
+    url("fonts/Roboto/Roboto-Medium.ttf.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
 
 @font-face {
   font-family: "Roboto Slab";

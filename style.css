@@ -961,8 +961,6 @@ header.sticky {
 @media (max-width: 1200px) {
   .barber {
     margin-top: 15vw;
-    padding-left: 20vw;
-    padding-right: 20vw;
     text-align: center;
     justify-content: center;
     align-items: center;
